@@ -1,0 +1,39 @@
+.box{
+	margin:10px 0;
+	width: 200px;
+	height:200px;
+	background-color: orange;
+}
+.pill{
+	margin:10px 0;
+	width: 200px;
+	height:50px;
+	background-color: orange;
+}
+
+.box2{
+	background-color: #dddddd;
+	border: 5px solid red;
+}
+
+.box3{
+	background-color: #dddddd;
+	border: 2px solid #deccee;
+}
+
+.mh-200{
+	min-height: 200px;
+}
+
+.sizing{
+	background-color: #eee;
+}
+
+.high{
+	background-color: #ff7675;
+	height: 200px;
+}
+.height{
+	width:150px;
+	background-color: #a29bfe;
+}

@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Utilities & flex</title>
+  </head>
+  <body>
+
+  	<div class="container">
+  		<div class="box border border-5"></div>
+  		<div class="box border border-primary border-5"></div>
+  	</div>
+
+  	<div class="container">
+  		<div class="box rounded"></div>
+  		<div class="box rounded rounded-3"></div>
+  		<div class="box rounded-circle"></div>
+  		<div class="box pill rounded-pill"></div>
+  	</div>
+
+  	<div class="para">
+  		<h1 class="text-gray-50 text-center bg-danger">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Aut, possimus.</h1>
+  		<p class="text-black-50">.text-black-50</p>
+  		<p class="text-white-50 bg-dark">.text-white-50</p>
+
+  	</div>
+
+  	<!--flex start-->
+  	<div class="container">
+  		<div class="d-flex mb-2 bg-primary text-white">
+  			<p>Lorem, ipsum dolor sit amet.</p>
+  		</div>
+  		<div class="d-inline-flex bg-primary text-white">
+  			<p>Lorem, ipsum dolor sit amet.</p>
+  		</div>
+  		<div class="p-3 mt-3 mb-3 bg-danger text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, pariatur?</div>
+
+  		<div class="d-inline p-2 bg-primary text-white">d-inline</div>
+        <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+        <div class="d-block p-2 mt-3 bg-warning text-white">d-block</div>
+
+  	</div>
+  	<section class="display ">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md d-md-none d-lg-block">
+  					<div class="box">Display</div>
+  				</div>
+  			</div>
+  		</div>
+  	</section>
+  	<!--flex end-->
+<section>
+	<div class="container">
+		<div class="d-flex flex-row-reverse bg-primary ">
+			<div class="box2">Lorem 1</div>
+			<div class="box2">Lorem 2</div>
+			<div class="box2">Lorem 3</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="d-flex justify-content-start mb-2 bg-info mb-2">
+			<div class="box3 p-2">Flex item 1</div>
+			<div class="box3 p-2">Flex item 2</div>
+			<div class="box3 p-2">Flex item 3</div>
+			<div class="box3 p-2">Flex item 4</div>
+			<div class="box3 p-2">Flex item 5</div>
+		</div>
+		<div class="d-flex justify-content-center mb-2 bg-info mb-2">
+			<div class="box3 p-2">Flex item 1</div>
+			<div class="box3 p-2">Flex item 2</div>
+			<div class="box3 p-2">Flex item 3</div>
+			<div class="box3 p-2">Flex item 4</div>
+			<div class="box3 p-2">Flex item 5</div>
+		</div>
+		<div class="d-flex justify-content-end mb-2 bg-info mb-2">
+			<div class="box3 p-2">Flex item 1</div>
+			<div class="box3 p-2">Flex item 2</div>
+			<div class="box3 p-2">Flex item 3</div>
+			<div class="box3 p-2">Flex item 4</div>
+			<div class="box3 p-2">Flex item 5</div>
+		</div>
+		<div class="d-flex justify-content-between mb-2 bg-info mb-2">
+			<div class="box3 p-2">Flex item 1</div>
+			<div class="box3 p-2">Flex item 2</div>
+			<div class="box3 p-2">Flex item 3</div>
+			<div class="box3 p-2">Flex item 4</div>
+			<div class="box3 p-2">Flex item 5</div>
+		</div>
+		<div class="d-flex justify-content-around mb-2 bg-info mb-2">
+			<div class="box3 p-2">Flex item 1</div>
+			<div class="box3 p-2">Flex item 2</div>
+			<div class="box3 p-2">Flex item 3</div>
+			<div class="box3 p-2">Flex item 4</div>
+			<div class="box3 p-2">Flex item 5</div>
+		</div>
+		<div class="d-flex justify-content-evenly mb-2 bg-info mb-2">
+			<div class="box3 p-2">Flex item 1</div>
+			<div class="box3 p-2">Flex item 2</div>
+			<div class="box3 p-2">Flex item 3</div>
+			<div class="box3 p-2">Flex item 4</div>
+			<div class="box3 p-2">Flex item 5</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container mb-2">
+		<div class="d-flex align-items-start bg-primary mb-2 mh-200">
+			<div class="box3 p-2">Align item 1</div>
+			<div class="box3 p-2">Align item 2</div>
+			<div class="box3 p-2">Align item 3</div>
+			<div class="box3 p-2">Align item 4</div>
+			<div class="box3 p-2">Align item 5</div>
+		</div>
+	</div>
+	<div class="container mb-2">
+		<div class="d-flex align-items-end bg-primary mb-2 mh-200">
+			<div class="box3 p-2">Align item 1</div>
+			<div class="box3 p-2">Align item 2</div>
+			<div class="box3 p-2">Align item 3</div>
+			<div class="box3 p-2">Align item 4</div>
+			<div class="box3 p-2">Align item 5</div>
+		</div>
+	</div>
+	<div class="container mb-2">
+		<div class="d-flex align-items-center bg-primary mb-2 mh-200">
+			<div class="box3 p-2">Align item 1</div>
+			<div class="box3 p-2">Align item 2</div>
+			<div class="box3 p-2">Align item 3</div>
+			<div class="box3 p-2">Align item 4</div>
+			<div class="box3 p-2">Align item 5</div>
+		</div>
+	</div>
+	<div class="container mb-2">
+		<div class="d-flex align-items-baseline bg-primary mb-2 mh-200">
+			<div class="box3 p-2">Align item 1</div>
+			<div class="box3 p-2">Align item 2</div>
+			<div class="box3 p-2">Align item 3</div>
+			<div class="box3 p-2">Align item 4</div>
+			<div class="box3 p-2">Align item 5</div>
+		</div>
+	</div>
+	<div class="container mb-2">
+		<div class="d-flex align-items-stretch bg-primary mb-2 mh-200">
+			<div class="box3 p-2">Align item 1</div>
+			<div class="box3 p-2">Align item 2</div>
+			<div class="box3 p-2">Align item 3</div>
+			<div class="box3 p-2">Align item 4</div>
+			<div class="box3 p-2">Align item 5</div>
+		</div>
+	</div>
+	<div class="container mb-2">
+		<div class="d-flex bg-primary mb-2 mh-200">
+			<div class="box3 flex-fill p-2">Align item 1 Lorem, ipsum, dolor.</div>
+			<div class="box3 flex-fill p-2">Align item 2</div>
+			<div class="box3 flex-fill p-2">Align item 3</div>
+			<div class="box3 flex-fill p-2">Align item 4 Lorem ipsum dolor sit.</div>
+			<div class="box3 flex-fill p-2">Align item 5</div>
+		</div>
+	</div>
+	<div class="container mb-2">
+		<div class="d-flex bg-primary">
+			<div class="box3 order-4 p-2">Order item 1</div>
+			<div class="box3 order-5 p-2">Order item 2</div>
+			<div class="box3 order-1 p-2">Order item 3</div>
+			<div class="box3 order-2 p-2">Order item 4</div>
+			<div class="box3 order-3 p-2">Order item 5</div>
+		</div>
+	</div>
+</section>
+
+<div class="container">
+	<p class="bg-success user-select-auto p-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, totam.</p>
+	<p class="bg-success user-select-all p-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, totam.</p>
+	<p class="bg-success user-select-none p-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, totam.</p>
+</div>
+
+<!--float-->
+<div class="container">
+	<p class="bg-secondary float-start p-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, totam.</p><br><br>
+	<p class="bg-secondary float-end p-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, totam.</p><br><br>
+	<p class="bg-secondary float-none p-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, totam.</p>
+</div>
+
+<!--shadow-->
+<div class="container">
+	<div class="shadow-none p-3 mb-5 bg-light rounded">No shadow</div>
+    <div class="shadow-sm p-3 mb-5 bg-body rounded">Small shadow</div>
+    <div class="shadow p-3 mb-5 bg-body rounded">Regular shadow</div>
+    <div class="shadow-lg p-3 mb-5 bg-body rounded">Larger shadow</div>
+</div>
+
+<!--sizing-->
+<div class="container">
+	<div class="w-25 p-3 sizing">Width 25%</div>
+	<div class="w-50 p-3 sizing">Width 50%</div>
+	<div class="w-75 p-3 sizing">Width 75%</div>
+	<div class="w-100 p-3 sizing">Width 100%</div>
+</div>
+<div class="container">
+	<div class="high overflow-hidden">
+	    <div class="h-25 d-inline-block p-3 height">Width 25%</div>
+	    <div class="h-50 d-inline-block p-3 height">Width 50%</div>
+	    <div class="h-75 p-3 d-inline-block height">Width 75%</div>
+	    <div class="h-100 p-3 d-inline-block height">Width 100%</div>
+	    <div class="h-100 d-inline-block p-3 height">Width 100%</div>
+	    <div class="h-75 d-inline-block p-3 height">Width 75%</div>
+	    <div class="h-50 p-3 d-inline-block height">Width 50%</div>
+	    <div class="h-25 p-3 d-inline-block height">Width 25%</div>
+    </div>
+</div>
+<div class="container">
+	<p class="text-break bg-warning p-3">LoremipsumdolorsiametconsecteturadipisicinelitTemporeundeullamliberoquiaInventoreametidaccusamuscumaspernaturautsimiliqusuntnobisautemmolestiassolutaremcommoditemporeratione.</p>
+
+	<p class="text-lowercase bg-dark text-white p-2">Lowercased text.</p>
+    <p class="text-uppercase bg-dark text-white p-2">Uppercased text.</p>
+    <p class="text-capitalize bg-dark text-white p-2">CapiTaliZed text.</p>
+</div>
+
+<div class="container">
+	<p class="fs-1">.fs-1 text</p>
+    <p class="fs-2">.fs-2 text</p>
+    <p class="fs-3">.fs-3 text</p>
+    <p class="fs-4">.fs-4 text</p>
+    <p class="fs-5">.fs-5 text</p>
+    <p class="fs-6">.fs-6 text</p>
+    <p class="lh-5">Some placeholder content to show off the line height utilities. Happy birthday. You could've been the greatest. She ride me like a roller coaster. I messed around and got addicted. You just gotta ignite the light and let it shine! I'm intrigued, for a peek, heard it's fascinating. Catch her if you can. I should've told you what you meant to me 'Cause now I pay the price. Do you ever feel, feel so paper thin.</p>
+</div>
+
+    <!-- JS links -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
